@@ -2,6 +2,8 @@ Entity Relation Extraction from PDF Text:
 
 This module facilitates the extraction of relationships between entities (nodes) from text embedded in a PDF file. The implementation leverages the Hugging Face Transformers library, specifically utilizing the "Babelscape/rebel-large" model and tokenizer tailored for sequence-to-sequence tasks. The primary objective is to tokenize the provided text, generate relationships and structure the data into a Knowledge Base (KB) with distinct relations.
 
+There's also an approach based on the zephyr LLM. Zephyr performed better than mistral for the task.
+
 Key Highlights:
 
 Model and Tokenizer: Employs the "Babelscape/rebel-large" model and associated tokenizer from the Hugging Face Transformers library.
