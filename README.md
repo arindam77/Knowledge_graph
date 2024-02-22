@@ -19,7 +19,9 @@ transformers
 torch
 
 json
+
 PyPDF2
+
 pandas
 
 
