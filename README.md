@@ -4,7 +4,7 @@ This module facilitates the extraction of relationships between entities (nodes)
 
 Key Highlights:
 
-Model and Tokenizer: Employs the "Babelscape/rebel-large" model and associated tokenizer from the Hugging Face Transformers library.
+Model and Tokenizer: Employs the "Babelscape/rebel-large" model and associated tokenizer from the Hugging Face Transformers library.\n
 Knowledge Base (KB): Manages unique relations, ensuring the exclusion of duplicate entries within the knowledge base.
 Span Extraction: Segments the input text at full stop and space boundaries, treating each sentence as an individual span.
 Output Format: The script produces relations in a JSON format.
