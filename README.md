@@ -15,7 +15,9 @@ Output Format: The script produces relations in a JSON format.
 Dependencies:
 
 transformers
+
 torch
+
 json
 PyPDF2
 pandas
